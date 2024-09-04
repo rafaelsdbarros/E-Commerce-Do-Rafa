@@ -1,0 +1,29 @@
+
+div {
+    background-color: transparent;
+}
+
+table, th, td {
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+.page-logo {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.fale-conosco{
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px;
+}

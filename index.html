@@ -7,30 +7,155 @@
         <meta name="keywords" content="HTML, JAVASCRIPT, CSS, VENDAS">
         <meta name="author" content="Rafael S. Barros">
         <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="stylesheet" href="./css/rafaStore.css">
     </head>
     <body>
         <header>
-            <h1>Rafa Store</h1>
+            <div class="page-logo">
+                <div>
+                    <h1>Rafa Store</h1>
+                    <h3>Bem-vindo a <b><i>Rafa Store</i></b> a sua loja preferida de eletronicos, livros e instrumentos.</h3>
+                </div>
+
+            </div>
             <div class="navbar-menu">
                 <hr>
                 <nav>
-                    <a href="./produtos/produtos.html">Produtos</a> |
+                    <a href="#">Home</a> |
+                    <a href="./quemSomos.html">Quem Somos</a> |
+                    <a href="./contato.html">Fale conosco</a> |
                     <a href="#">Cadastre-se</a> |
-                    <a href="#">Contato</a> |
                 </nav>
+                <hr>
+                <table>
+                    <thead>
+                        <tr> 
+                            <th><h2>Produtos</h2></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h4>Abaixo escolha a categoria de produto que mais lhe interessa.</h4>
+                            </td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="./produtos/eletronicos.html">Eletrônicos</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="./produtos/livros.html">Livros</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="./produtos/instrumentos.html">Instrumentos</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
                 <hr>
             </div>
         </header>
 
-        <div class="homepage">
-            <h3>Bem-vindo a <b><i>Rafa Store</i></b> a sua loja preferida de eletronicos, livros e instrumentos.</h3>
-            <p>
-                A Rafa Store é uma empresa inovadora que se destaca no mercado pela ampla variedade de produtos eletrônicos,
-                livros e instrumentos musicais. Fundada com o objetivo de proporcionar uma experiência de compra única, a Rafa Store oferece desde os mais modernos gadgets tecnológicos até livros de diversas categorias, atendendo às necessidades de todos os tipos de leitores. Além disso, a loja é um paraíso para os amantes da música,
-                com uma vasta seleção de instrumentos musicais de alta qualidade, desde guitarras e pianos até acessórios e equipamentos de som. </p>
+        <article>
+            <h3><i>Confira abaixo as ofertas incríveis que preparamos para você!</i></h3>
+            <section id="produtos-ofertas">
+                <div class="lista-produtos">
+                    <ol>
+                        <!--Produto 1-->
+                        <li>                           
+                            <div class="item">
+                                <h4><b>Arquitetura Limpa: o Guia do Artesão Para Estrutura e Design de Software</b></h4>
+                                <a href="https://pt.wikipedia.org/wiki/Robert_Cecil_Martin" target="_blank">Robert C. Martin (Autor)</a>,
+                                <a href="https://en.wikipedia.org/wiki/Kevlin_Henney" target="_blank">Kevlin Henney (Prefácio)</a>
 
-                <p>Confira agora mesmo todas as nossas ofertas e variedades de produtos clicando <a href="./produtos/produtos.html">aqui!</a></p>
-        </div>
+                                <figure>
+                                    <img src="./assets/livros/item1.jpg" style="width: 100px; height: auto;" alt="Arquitetura Limpa">
+                                </figure>
+                                <dl>
+                                    <dt><b>Sobre este item</b></dt>
+                                    <dd>As regras universais de arquitetura de software aumentam dramaticamente a produtividade dos desenvolvedores ao longo da vida dos sistemas de software. Agora, aproveitando o sucesso dos seus best-sellers "Código Limpo" e "O Codificador Limpo", o lendário artesão de software Robert C. Martin (“Uncle Bob”) vai revelar essas regras e ajudar o leitor a aplicá-las.
+                                        A "Arquitetura Limpa" de Martin não é só mais um catálogo de opções. Com base em meio século de experiência nos mais variados ambientes de software, Martin indica as escolhas que você deve fazer e explica por que elas são cruciais para o seu sucesso. Como já era esperado do Uncle Bob, este livro está cheio de soluções simples e diretas para os desafios reais que você enfrentará - aqueles que irão influenciar diretamente o sucesso ou fracasso dos seus projetos.
+                                    </dd>
+                                </dl>
+                                <ul>
+                                    <li>432 páginas</li>
+                                    <li>Português</li>
+                                    <li>Editora: Alta Books</li>
+                                </ul>
 
+                                <p>Valor: <b>R$: 55,99</b></p>
+
+                                <a href="#"> Comprar agora </a> | 
+                                <a href="#"> Adicionar ao carrinho </a>
+                            </div>
+                            <hr>
+                        </li>  
+                        <!--Produto 2-->
+                        <li>                           
+                            <div class="item">
+                                <h4><b>Fone Sem Fio Bluetooth V 5.4 Som Premium Confortável Para Android e IOS</b></h4>
+                                <figure>
+                                    <img src="./assets/eletronicos/item3.jpg" style="width: 100px; height: auto;" alt="Fone Sem Fio">
+                                </figure>                        
+                                <p><b>Sobre este item</b></p>
+                                <ul>
+                                    <li>TECNOLOGIA: Utiliza a tecnologia Bluetooth 5.4, proporcionando uma conexão mais estável e rápida, oferecendo uma experiência de áudio sem fio aprimorada e imersiva.</li>
+                                    <li>DESIGN: Compacto e discreto, é fácil de transportar. Seja em viagens ao ar livre, durante exercícios ou uso diário, pode ser facilmente levado a qualquer lugar.</li>
+                                    <li>CONFORTO: Experimente a praticidade e o conforto do Fone de Ouvido Bluetooth Sem Fio para uma experiência auditiva excepcional.</li>
+                                    <li>ÁUDIO: Oferece desempenho sonoro excepcional, proporcionando um áudio premium realista e claro, desfrute de uma experiência agradável com suas músicas e chamadas.</li>
+                                </ul>
+
+                                <p>Valor: <b>R$: 94,00</b></p>
+
+                                <a href="#"> Comprar agora </a> | 
+                                <a href="#"> Adicionar ao carrinho </a>
+                            </div>
+                            <hr>
+                        </li>  
+                        <!--Produto 3-->
+                        <li>                           
+                            <div class="item">
+                                <h4><b>Guitarra Elétrica Valentine's - Modelo ST- Corpo em Alder - SSS - Snow White - TV1954SW</b></h4>
+                                <p> MARCA: TONANTE</p>
+                                <figure>
+                                    <img src="./assets/instrumentos/item2.jpg" style="width: 100px; height: auto;" alt="Guitarra Elétrica Valentine's">
+                                </figure>
+                                <dl>
+                                    <dt><b>Sobre este item</b></dt>
+                                    <dd>
+                                        Cor: Snow White<br>
+                                        Material da estrutura: Ácer<br>
+                                        Configuração do captador do violão: S-S-S<br>
+                                        Tipo de material da corda: Cobre<br>
+                                    </dd>
+                                </dl>
+                                <ul>
+                                    <li>Tarraxas: Chrome Die-cast</li>
+                                    <li>Escala: Rosewood - 22T - C 25.5" - R 9.5"</li>
+                                    <li>Braço: Maple</li>
+                                    <li>Captação: 3 Single coils</li>
+                                    <li>Corpo: Alder</li>
+                                </ul>
+
+                                <p>Valor: <b>R$: 690,14</b></p>
+
+                                <a href="#"> Comprar agora </a> | 
+                                <a href="#"> Adicionar ao carrinho </a>
+                            </div>
+                            <hr>
+                        </li>                                                               
+                    </ol>
+                </div>
+            </section>
+        </article>
+        <footer>
+            <p>&copy; TODOS OS DIREITOS RESERVADOS A <strong>RAFA STORE</strong> 2024 <br>
+                Site criado por <a href="MeuCurriculo/index.html">Rafael S. Barros</a>
+            </p>
+        </footer>
     </body>
 </html>

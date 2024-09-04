@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Rafa Commerce </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="E-commerce web page">
+        <meta name="keywords" content="HTML, JAVASCRIPT, CSS, VENDAS">
+        <meta name="author" content="Rafael S. Barros">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="stylesheet" href="./css/rafaStore.css">
+    </head>
+    <body>
+        <header>
+            <h1>Rafa Store</h1>
+            <div class="navbar-menu">
+                <hr>
+                <nav>
+                    <a href="./index.html">Home</a> |
+                    <a href="./quemSomos.html">Quem Somos</a> |
+                    <a href="#">Fale conosco</a> |
+                    <a href="#">Cadastre-se</a> |
+                </nav>
+                <hr>
+            </div>
+        </header>
+
+        <h1>Fale conosco!</h1>
+        <p><b>Estamos aqui para ajudar! Se você tiver qualquer dúvida, sugestão ou precisar de assistência entre em contato conosco.</b></p>
+
+        <section id="form-contato">
+            <div class="fale-conosco">     
+                <form action="" method="post">
+                    <fieldset>
+                        
+                        <legend>Formulário de contato</legend>
+
+                    <label for="name">Nome Completo:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Nome completo" autofocus><br>
+                    <br>
+                    <label for="phone">Telefone:</label><br>
+                    <input type="tel" id="phone" name="phone" pattern="^\(?d{2}\)\d{4}[-\s]\d{4}$" placeholder="(XX) XXXX- XXXX"><br>
+                    <br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email">
+                    <br>
+
+                    <hr>
+
+                    <label for="estado">De qual Estado você escreve?</label><br>
+                    <input list="estados" name="estado" id="estado">
+
+                    <datalist id="estados">
+                        <option value="AC">
+                            <option value="AL">
+                            <option value="AP">
+                            <option value="AM">
+                            <option value="BA">
+                            <option value="CE">
+                            <option value="DF">
+                            <option value="ES">
+                            <option value="GO">
+                            <option value="MA">
+                            <option value="MT">
+                            <option value="MS">
+                            <option value="MG">
+                            <option value="PA">
+                            <option value="PB">
+                            <option value="PR">
+                            <option value="PE">
+                            <option value="PI">
+                            <option value="RJ">
+                            <option value="RN">
+                            <option value="RS">
+                            <option value="RO">
+                            <option value="RR">
+                            <option value="SC">
+                            <option value="SP">
+                            <option value="SE">
+                            <option value="TO">
+                    </datalist>
+                    <br>
+                    <br>
+
+                    <label for="cidade">Cidade:</label><br>
+                    <input type="text" id="cidade" name="cidade"><br>
+
+                    <hr>
+
+                    <p>Escolha o gênero que se identifica</p>
+                    <input type="radio" id="Masculino" name="genero" value="Masculino">
+                    <label for="Masculino">Masculino</label>
+                    <input type="radio" id="Feminino" name="genero" value="Feminino">
+                    <label for="Feminino">Feminino</label>
+                    <input type="radio" id="outro" name="genero" value="outro">
+                    <label for="outro">Outro</label><br>    
+
+                    <hr>
+                    
+                    <p>O que deseja nos contar?</p>
+                    <input type="checkbox" id="sugestao" name="sugestao" value="sugestao">
+                    <label for="sugestao"> Sugestão</label>
+                    <input type="checkbox" id="elogio" name="elogio" value="elogio">
+                    <label for="elogio"> Elogio</label>
+                    <input type="checkbox" id="assistencia" name="assistencia" value="assistencia">
+                    <label for="assistencia"> Assistência</label>
+                    <input type="checkbox" id="outros" name="outros" value="outros">
+                    <label for="assistencia"> Outros</label><br><br>
+
+                    <hr>
+
+                    <label for="mensagem">Escreva sua mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea> <br>
+                    <input type="submit" value="Enviar" style="text-align: center;">
+                </fieldset>
+                </form>
+            </div>
+        </section>
+        <hr>
+        <footer>
+            <a href="./index.html">Voltar</a>
+            <p>&copy; TODOS OS DIREITOS RESERVADOS A <strong>RAFA STORE</strong> 2024<br>
+                Site criado por <a href="MeuCurriculo/index.html">Rafael S. Barros</a>
+            </p>
+        </footer>
+        <hr>
+    </body>
+</html>
