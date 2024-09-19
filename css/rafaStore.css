@@ -57,16 +57,15 @@ h3{
 
 .artigo-produtos{
     border: 1px solid black;
-    margin: 5px;
     padding: 5px;
 }
 
 .lista-produtos{
     border: 1px solid black;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
     background-color: whitesmoke;
-    margin: 5px;
+    margin: 30px;
 }
 
 .item > h4{
@@ -82,7 +81,9 @@ h3{
 .produto-descricao{
     display: flex;
     margin: 5px;
-    padding: 5px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 
 .produto-descricao > dl{
@@ -136,6 +137,7 @@ footer{
     align-items: center;
     text-transform: uppercase;
     font-weight: bold;
+    border: 1px solid black;
 }
 
 
