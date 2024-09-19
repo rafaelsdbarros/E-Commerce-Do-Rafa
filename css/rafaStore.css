@@ -11,10 +11,10 @@ a:link, a:active {
     color: rgb(105, 38, 159);
 }
 a:hover{
-    color: rgb(151, 81, 209);
+    color: rgb(132, 4, 238);
 }
 a:visited{
-    color: rgb(2, 0, 3);
+    color: rgba(51, 6, 90, 0.341);
 }
 a:active{
     color: rgb(92, 0, 138);
@@ -22,6 +22,11 @@ a:active{
 
 h3{
     margin: 5px;
+}
+
+img{
+    width: 100px;
+    height: auto;
 }
 
 .page-logo {
@@ -122,6 +127,17 @@ h3{
     text-align: left;
 }
 
+.quem-somos{
+    text-align: center;
+    margin: 5px;
+}
+
+.quem-somos > p {
+    text-indent: 50px;
+    text-align: justify;
+    padding: 20px;
+}
+
 table, th, td {
     border: 1px solid black;
     width: 100%;
@@ -140,13 +156,32 @@ footer{
     border: 1px solid black;
 }
 
+#form-contato {
+    text-align: center;
+    font-size: larger;
+}
 
+#form-contato > figure > img {
+    width: 33%;
+    height: auto;
+    
+}
 .fale-conosco{
+    border: 1px solid black;
+    padding: 20px;
+    width: auto;
     display: flex;
     justify-content: center;
+    background-color: whitesmoke;
+    background-image: linear-gradient(whitesmoke, rgb(134, 94, 148));
 }
 
 form {
     border: 1px solid black;
-    padding: 10px;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.back-btn{
+    color: white;
 }
