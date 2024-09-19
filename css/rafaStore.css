@@ -1,6 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
 
-div {
-    background-color: transparent;
+a{
+    text-decoration: none;
+}
+a:link, a:active {
+    color: rgb(105, 38, 159);
+}
+a:hover{
+    color: rgb(151, 81, 209);
+}
+a:visited{
+    color: rgb(2, 0, 3);
+}
+a:active{
+    color: rgb(92, 0, 138);
+}
+
+h3{
+    margin: 5px;
+}
+
+.page-logo {
+    background-image: linear-gradient(rgb(43, 21, 61), rgb(13, 12, 12));
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.logo-text{
+    color: whitesmoke;
+    animation-name: logoText;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logoText {
+    from {color: rgb(18, 18, 18);}
+    to {color: rgb(255, 255, 255);}
+}
+
+.navbar-menu{
+    height: 40px;
+    padding: 5px;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.artigo-produtos{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.lista-produtos{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 5px;
+}
+
+.item > h4{
+   text-decoration: underline;
+   margin-bottom: 5px;
+}
+
+.item > a {
+    text-decoration: underline;
+    margin: 5px;
+}
+
+.produto-descricao{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+}
+
+.produto-descricao > dl{
+    margin-left: 50px;
+    padding: 5px;
+}
+
+.produto-descricao > dl > hr{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.produto-descricao > dl > dd > ul > li{
+    margin-bottom: 5px;
+    margin-left: 30px;
+}
+
+.valor-produto{
+    text-align: center;
+    padding: 5px;
+    font-size: large;
+}
+
+.btn-customizado{  
+    width: auto;
+    height: 35px;
+    padding: 5px;
+    background-color: rgb(66, 28, 101);
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+.buttons{
+    text-align: left;
 }
 
 table, th, td {
@@ -10,13 +128,16 @@ table, th, td {
 }
 
 footer{
-    text-align: center;
+    height: 50px;
+    padding: 5px;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-.page-logo {
-    border: 2px solid black;
-    padding: 10px;
-}
 
 .fale-conosco{
     display: flex;
