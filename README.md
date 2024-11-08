@@ -13,5 +13,3 @@ Linguagens:
   
 IDE:
 - VSCode
-
-A idea é manter um site 100% puro em front-end, sem bootstrap, jquery ou frameworks.
